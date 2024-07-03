@@ -5,6 +5,11 @@ Stack Exchange publica periódicamente el dump de todas las preguntas y respuest
 
 Queremos aprovechar esto para realizar un análisis de los temas que se hablan en los sitios. Para ello utilizaremos los tags que cada pregunta tiene asociada.
 
+## Uso
+``` bash
+cargo run --release <num_hilos>
+```
+
 ## Objetivo
 Implementar una aplicación en Rust para procesamiento de información, aprovechando las ventajas del modelo Fork-Join, utilizando el dataset https://huggingface.co/datasets/flax-sentence-embeddings/stackexchange_title_body_jsonl
 
